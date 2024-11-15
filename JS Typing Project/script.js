@@ -70,4 +70,4 @@ function startTimer() {
 function getTimerTime() {
   return Math.floor((new Date() - startTime) / 1000);
 }
-//getNextQuote();
+getNextQuote();
